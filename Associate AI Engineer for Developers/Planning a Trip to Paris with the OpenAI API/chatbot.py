@@ -1,8 +1,18 @@
 import os
 from openai import OpenAI
 
+# Load API Key from Environment Variable
+api_key = os.getenv("OPENAI_API_KEY")
+
+# Check if API key exists
+if not api_key:
+    raise ValueError("OPENAI_API_KEY environment variable not set!")
+
+# Define the model to use
 model = "gpt-4o-mini"
-client = OpenAI()
+
+# Initialize OpenAI Client with API Key
+client = OpenAI(api_key=api_key)
 
 conversation = [
     {
