@@ -42,7 +42,7 @@ This chatbot solves the problem by offering short, accurate responses in a frien
 
 ## 📂 Project Structure
 ```
-paris-tourist-chatbot/
+DataCamp-Projects/Associate AI Engineer for Developers/Planning a Trip to Paris with the OpenAI API/
 │
 ├── chatbot.py          # Main script that calls the OpenAI API
 ├── README.md           # Project documentation
